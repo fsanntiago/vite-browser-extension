@@ -1,0 +1,7 @@
+echo "Running pre-commit hook..."
+
+echo 'Running lint:fix'
+bun run lint:fix ||
+(echo 'Linting error detected. Please fix it before committing.' && exit 1)
+
+echo 'Done'
