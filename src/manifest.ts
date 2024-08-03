@@ -1,5 +1,6 @@
-import { defineManifest } from '@crxjs/vite-plugin';
-import packageData from '../package.json';
+import { defineManifest } from '@crxjs/vite-plugin'
+
+import packageData from '../package.json'
 
 export default defineManifest({
   name: packageData.name,
@@ -46,4 +47,4 @@ export default defineManifest({
   chrome_url_overrides: {
     newtab: 'newtab.html',
   },
-});
+})
