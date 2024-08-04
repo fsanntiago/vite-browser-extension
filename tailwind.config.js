@@ -11,12 +11,18 @@ export default {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: '2rem',
       screens: {
-        "2xl": "1400px",
+        lg: '64rem',
+        xl: '80rem',
+        '2xl': '1400px',
       },
     },
     extend: {
+      fontFamily: {
+        workSans: ['"Work Sans"', "sans-serif"],
+        // Add more custom font families as needed
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

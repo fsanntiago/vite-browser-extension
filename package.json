@@ -1,7 +1,7 @@
 {
-  "name": "browser-extension-template-bun-vite-react",
-  "displayName": "Browser Extension Template (Bun + Vite + React + TS)",
-  "description": "A template for browser extension with Bun, Vite and React.",
+  "name": "GuidePro",
+  "displayName": "GuidePro",
+  "description": "Record tab and generate a guide for it.",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -25,6 +25,8 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@radix-ui/react-radio-group": "^1.2.0",
+    "@radix-ui/react-select": "^2.1.1",
     "@radix-ui/react-slot": "^1.1.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
