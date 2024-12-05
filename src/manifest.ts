@@ -19,6 +19,7 @@ export default defineManifest({
   },
   options_page: 'options.html',
   devtools_page: 'devtools.html',
+
   background: {
     service_worker: 'src/background/index.ts',
     type: 'module',
@@ -41,6 +42,10 @@ export default defineManifest({
         'img/logo-128.png',
       ],
       matches: [],
+    },
+    {
+      resources: ['camera.html'],
+      matches: ['<all_urls>'],
     },
   ],
   permissions: [
